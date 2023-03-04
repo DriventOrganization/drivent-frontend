@@ -8,9 +8,6 @@ export default function Hotel() {
   const [isRemote, setIsRemote] = useState();
   const [includesHotel, setIncludesHotel] = useState();
 
-  console.log(includesHotel);
-  console.log(isRemote);
-
   function remote() {
     setIncludesHotel();
     setIsRemote(true);
