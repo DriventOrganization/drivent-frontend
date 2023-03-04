@@ -4,7 +4,7 @@ export default function Button({ text1, text2, ...props }) {
   return (
     <ButtonStyle {...props}>
       <Text1Style>{`${text1}`}</Text1Style>
-      <Text2Style>{`R$ ${text2}`}</Text2Style>
+      <Text2Style>{`${text2}`}</Text2Style>
     </ButtonStyle>
   );
 }
